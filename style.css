@@ -2,10 +2,6 @@
 /* fonts declaration */
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Gasoek+One&family=Rubik+Mono+One&family=Tilt+Warp&display=swap');
 
-@font-face {
-    font-family: 'Aeogo';
-    src: url("./fonts/Aeogo/AeogoPixellated-Regular.ttf");
-}
 
 @keyframes blink{
     5%{
@@ -44,3 +40,23 @@ body{
     letter-spacing: 0.5vw;
     color: white;
 }
+
+.Button{
+    transition: 0.25s;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    font-family: 'Tilt Warp';
+    color: white;
+    font-size: 1.5vw;
+    border-bottom: white 3px solid;
+    width: 18%;
+    text-align: left;
+    margin: 4vh 5vw;
+}
+
+.Button:hover{
+    transition: 0.25s;
+    text-shadow: 0 3px  red;
+}
+
