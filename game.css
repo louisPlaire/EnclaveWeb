@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Gasoek+One&family=Rubik+Mono+One&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Hairline&family=Gasoek+One&family=Rubik+Mono+One&family=Tilt+Warp&display=swap');
 
 body{
     background-color: black;
+    margin: 0;
+    
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
 
 #title{
     margin: 4vw;
@@ -12,15 +17,69 @@ body{
     letter-spacing: 0.5vw;
     color: white;
     user-select: none;
-    width: 25vw;
-    border-bottom: 8px solid white;
-    text-shadow: 0px 0px 100px rgb(255, 114, 114);
+}
+
+h3{
+    letter-spacing: 0.1vw;
+
+    margin: 4vh 4vw 0 4vw;
+    color: white;
+    max-width: 65ch;
+    font-family: 'Bebas Neue';
+    font-size: 2vw;
+    text-align: center;
+    text-align: left;
+    font-weight: 100;
 }
 
 p{
+    margin: 0 4vw 4vh 4vw;
     color: white;
-    max-width: 50ch;
+    max-width: 65ch;
     font-family: 'Tilt Warp';
-    font-size: 1vw;
+    font-size: 1.15vw;
+    text-align: left;
+}
+
+#enclave{
+    margin: 10px 4vw;
+    color: black;
+    max-width: 65ch;
+    font-family: 'Tilt Warp';
+    font-size: 1.35vw;
     text-align: center;
+    letter-spacing: 0.35vw;
+    background-color: white;
+    padding: 0.9vw;
+    width: 7.5%;
+}
+
+#retour{
+    text-decoration: none;
+    color: black;
+    font-family: 'Tilt Warp';
+    font-size: 1.0vw;
+    background-color: white;
+    display: block;
+    padding: 0.75vw;
+    text-align: center;
+}
+
+#download{
+    transition: 0.2s;
+    text-decoration: none;
+    color: black;
+    font-family: 'Tilt Warp';
+    font-size: 1.0vw;
+    background-color: white;
+    padding: 0.75vw;
+    text-align: center;
+    margin: 0 4vw 4vh 4vw;
+
+}
+
+#download:hover{
+    transition: 0.2s;
+    color: white;
+    background-color: blue;
 }
