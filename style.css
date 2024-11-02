@@ -4,6 +4,10 @@
 
 
 @keyframes blink{
+    0%{
+        opacity: 1;
+        transform: translateY(0);
+    }
     5%{
         opacity: 1;
     }
@@ -19,8 +23,14 @@
     10%{
         opacity: 1;
     }
+    50%{
+        transform: translateY(20px);
+
+    }
     100%{
         opacity: 1;
+        transform: translateY(0);
+
     }
 }
 
@@ -33,13 +43,16 @@ body{
 
 #title{
     animation: blink forwards 10s infinite;
-    animation-timing-function: linear;
+    animation-timing-function: ease-in-out;
     margin: 4vw;
     font-size: 15vw;
     font-family: 'Tilt Warp';
     letter-spacing: 0.5vw;
     color: white;
+    user-select: none;
+    animation-timing-function: ease-in-out;
 }
+
 
 .Button{
     transition: 0.25s;
@@ -53,10 +66,12 @@ body{
     width: 18%;
     text-align: left;
     margin: 4vh 5vw;
+    padding: 1vh 0vw;
 }
 
 .Button:hover{
     transition: 0.25s;
     text-shadow: 0 3px  red;
+    font-size: 1.6vw;
 }
 
