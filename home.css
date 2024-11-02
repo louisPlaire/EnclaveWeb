@@ -39,6 +39,7 @@
 
 body{
     background-color: black;
+    overflow: hidden;
 }
 
 
@@ -75,3 +76,9 @@ body{
     font-size: 1.9vw;
 }
 
+img{
+    width: 50vw;
+    position: absolute;
+    top: 5vh; right: 20vw;
+    z-index: -1;
+}
