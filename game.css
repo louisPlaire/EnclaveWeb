@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Gasoek+One&family=Rubik+Mono+One&family=Tilt+Warp&display=swap');
+
+body{
+    background-color: black;
+}
+
+
+#title{
+    margin: 4vw;
+    font-size: 4vw;
+    font-family: 'Tilt Warp';
+    letter-spacing: 0.5vw;
+    color: white;
+    user-select: none;
+    width: 25vw;
+    border-bottom: 8px solid white;
+    text-shadow: 0px 0px 100px rgb(255, 114, 114);
+}
+
+p{
+    color: white;
+    max-width: 50ch;
+    font-family: 'Tilt Warp';
+    font-size: 1vw;
+    text-align: center;
+}
