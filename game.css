@@ -35,7 +35,6 @@ h3{
 p{
     margin: 0 4vw 4vh 4vw;
     color: white;
-    max-width: 65ch;
     font-family: 'Tilt Warp';
     font-size: 1.15vw;
     text-align: left;
@@ -82,4 +81,44 @@ p{
     transition: 0.2s;
     color: white;
     background-color: blue;
+}
+
+@media screen and (max-width: 850px){
+    #title{
+        margin: 4vw;
+        font-size: 12vw;
+    }
+
+    h3{
+        margin: 4vh 4vw 0 4vw;
+        max-width: 65ch;
+        font-size: 7vw;
+    }
+
+    p{
+        max-width: 65ch;
+        font-size: 2.5vw;
+    }
+
+    #enclave{
+        margin: 10px 4vw;
+        color: black;
+        font-family: 'Tilt Warp';
+        font-size: 4vw;
+        text-align: center;
+        letter-spacing: 0.35vw;
+        background-color: white;
+        padding: 2vw;
+        width: 20vw;
+    }
+
+    #retour{
+        font-size: 5vw;
+        padding: 1vw;
+    }
+
+    #download{
+        font-size: 3vw;
+        padding: 4vw;
+    }
 }
