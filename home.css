@@ -82,3 +82,13 @@ img{
     top: 5vh; right: 20vw;
     z-index: -1;
 }
+
+
+@media screen and (max-width: 850px) {
+    .Button{
+        width: 60%;
+        font-size: 6vw;
+        margin: 10vh 10vw;
+
+    }
+}
