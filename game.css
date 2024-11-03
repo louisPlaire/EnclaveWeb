@@ -38,6 +38,7 @@ p{
     font-family: 'Tilt Warp';
     font-size: 1.15vw;
     text-align: left;
+    max-width: 75ch;
 }
 
 #enclave{
@@ -83,6 +84,15 @@ p{
     background-color: blue;
 }
 
+img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+
 @media screen and (max-width: 850px){
     #title{
         margin: 4vw;
@@ -96,7 +106,7 @@ p{
     }
 
     p{
-        max-width: 65ch;
+        max-width: 35ch;
         font-size: 2.5vw;
     }
 
