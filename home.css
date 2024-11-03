@@ -89,6 +89,7 @@ img{
         width: 60%;
         font-size: 6vw;
         margin: 10vh 5vw;
+        border-bottom: white 5px solid;
 
     }
 
@@ -96,6 +97,7 @@ img{
         transition: 0.25s;
         text-shadow: 0 3px  red;
         font-size: 6.8vw;
+
     }
 
     img{
