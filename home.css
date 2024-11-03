@@ -91,4 +91,17 @@ img{
         margin: 10vh 5vw;
 
     }
+
+    .Button:hover{
+        transition: 0.25s;
+        text-shadow: 0 3px  red;
+        font-size: 6.8vw;
+    }
+
+    img{
+        opacity: 0.5;
+        width: 75vw;
+        top: 5vh; left: 0;
+
+    }
 }
