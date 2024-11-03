@@ -106,4 +106,8 @@ img{
         top: 5vh; left: 0;
 
     }
+
+    #title{
+        font-size: 20vw;
+    }
 }
