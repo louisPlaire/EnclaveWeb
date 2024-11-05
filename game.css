@@ -90,6 +90,7 @@ img{
     top: 0;
     z-index: -1;
     opacity: 0.6;
+    width: 60vw;
 
 }
 
@@ -130,5 +131,9 @@ img{
     #download{
         font-size: 3vw;
         padding: 4vw;
+    }
+
+    img{
+        width: 80vw;
     }
 }
