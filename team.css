@@ -7,7 +7,7 @@ body
 {
   width: 1000px;
   margin: 1 auto;
-  background-image: url("/home/you/Downloads/68942956-0C2A-42FF-973E-14F6CC1CBB71.PNG");
+  background-image: url(<img src="./images/Image12345.PNG">);
   padding: 0 50px 1000px 50px;
   border: 1px solid transparent;
 }
