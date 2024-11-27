@@ -1,28 +1,42 @@
 h2
 {
-color: grey;
+color: white;
+font-family: 'Tilt Warp';
 font-size: 2em;
+font-weight: bold;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 body
 {
   width: 1000px;
   margin: 1 auto;
-  background-image: url(<img src="./images/Image12345.PNG">);
+  background-image: url("<img src="./images/Image12345.PNG">");
+  background-size: cover;
+  background-attachment: fixed;
   padding: 0 50px 1000px 50px;
+  font-family: 'Tilt Warp';
   border: 1px solid transparent;
 }
 
 
 p {
   font-size: 1.3em;
-  color: grey;
+  font-family: 'Tilt Warp';
+  color: white;
   background-color:transparent;
 }
 .ent
 {
-color: grey;
+color: white;
+text-decoration: none;
 }
-div
+
+div 
 {
-background-color : transparent;
-}
+  font-family: 'Tilt Warp';
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 15px; 
+ }
