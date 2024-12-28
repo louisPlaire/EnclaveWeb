@@ -84,7 +84,7 @@ p{
     background-color: blue;
 }
 
-img{
+#marvin{
     position: absolute;
     right: 0;
     top: 0;
@@ -93,6 +93,24 @@ img{
     width: 60vw;
 
 }
+
+#members{
+    margin: 4vw;
+    display: inline-block;
+}
+
+.photos{
+    width: 10vw;
+    margin: 1vw auto;
+}
+
+.description{
+    color: white;
+    font-family: 'Tilt Warp';
+    font-size: 1.15vw;
+    text-align: center;
+}
+
 
 @media screen and (max-width: 850px){
     #title{
