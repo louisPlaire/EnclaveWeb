@@ -96,18 +96,28 @@ p{
 
 #members{
     margin: 4vw;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-basis: content;
+}
+
+.member{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
 }
 
 .photos{
     width: 10vw;
-    margin: 1vw auto;
 }
 
 .description{
     color: white;
     font-family: 'Tilt Warp';
     font-size: 1.15vw;
+    margin: 10px auto;
     text-align: center;
 }
 
