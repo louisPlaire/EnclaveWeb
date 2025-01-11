@@ -56,24 +56,21 @@ body{
 
 
 .Button{
-    transition: 0.25s;
     text-decoration: none;
     display: block;
     cursor: pointer;
     font-family: 'Tilt Warp';
     color: white;
-    font-size: 1.75vw;
-    border-bottom: white 3px solid;
-    width: 27%;
+    font-size: 1.85vw;
+    width: 30%;
     text-align: left;
-    margin: 4vh 5vw;
-    padding: 1vh 0vw;
+    margin: 2vh 2vw;
+    padding: 1vh;
 }
 
 .Button:hover{
-    transition: 0.25s;
-    text-shadow: 0 3px  red;
-    font-size: 1.9vw;
+    background-color: white;
+    color: black;
 }
 
 img{
