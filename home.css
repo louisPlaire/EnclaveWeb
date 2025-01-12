@@ -92,7 +92,6 @@ img{
 
     .Button:hover{
         transition: 0.25s;
-        text-shadow: 0 3px  red;
         font-size: 6.8vw;
 
     }
