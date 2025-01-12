@@ -84,17 +84,12 @@ img{
 
 @media screen and (max-width: 850px) {
     .Button{
-        width: 60%;
+        width: 85%;
         font-size: 6vw;
-        margin: 10vh 5vw;
+        margin: 7vh 0;
 
     }
 
-    .Button:hover{
-        transition: 0.25s;
-        font-size: 6.8vw;
-
-    }
 
     img{
         opacity: 0.4;
