@@ -131,6 +131,16 @@ p{
     text-align: center;
 }
 
+.gameplay{
+    width: 40vw;
+    margin: 5vh 6vw 8vh 6vw;
+    border-radius: 5px;
+}
+
+.gameplayTitle{
+    margin: 0 6vw;
+    font-size: 1.4vw;
+}
 
 @media screen and (max-width: 850px){
     #title{
