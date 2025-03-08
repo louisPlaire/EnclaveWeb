@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aide et Assistance aux Joueurs</title>
+    <link rel="stylesheet" href="styles.css"> <aide.css>
+</head>
+<body>
+    <header>
+        <h1>Aide et Assistance aux Joueurs</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="aide.html">Aide & Assistance</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="faq">
+            <h2>Foire aux Questions (FAQ)</h2>
+            <details>
+                <summary>Comment installer un jeu ?</summary>
+                <p>Rendez-vous sur la page du jeu, cliquez sur le bouton de téléchargement et suivez les instructions affichées.</p>
+            </details>
+            <details>
+                <summary>Que faire si le jeu ne se lance pas ?</summary>
+                <p>Vérifiez que votre PC répond aux configurations minimales requises, mettez à jour vos pilotes et redémarrez votre ordinateur.</p>
+            </details>
+            <details>
+                <summary>Comment récupérer un compte perdu ?</summary>
+                <p>Utilisez la fonction de récupération de mot de passe sur la page de connexion ou contactez le support via le formulaire ci-dessous.</p>
+            </details>
+        </section>
+        
+        <section class="support">
+            <h2>Assistance Personnalisée</h2>
+            <p>Besoin d'une aide spécifique ? Remplissez le formulaire ci-dessous :</p>
+            <form action="#" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Décrivez votre problème :</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 EnclaveWeb - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
