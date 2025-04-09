@@ -3,6 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Hairline&family=Gasoek+One&family=Rubik+Mono+One&family=Tilt+Warp&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 
+
+@font-face {
+    font-family: 'Helvetica-Bold';
+    src: url('fonts/Helvetica Bold/Helvetica Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @keyframes blink{
     0%{
         opacity: 1;
@@ -48,7 +56,7 @@ body{
     animation-timing-function: ease-in-out;
     margin: 1vw;
     font-size: 15vw;
-    font-family: "Tilt Warp", sans-serif;
+    font-family: "Helvetica-Bold", Helvetica;
     font-style: normal;
     letter-spacing: 0.5vw;
     color: white;
@@ -79,7 +87,7 @@ img{
     position: absolute;
     top: 0; right: 0;
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 
