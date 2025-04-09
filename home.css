@@ -1,7 +1,7 @@
 
 /* fonts declaration */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Hairline&family=Gasoek+One&family=Rubik+Mono+One&family=Tilt+Warp&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 
 @keyframes blink{
     0%{
@@ -48,7 +48,9 @@ body{
     animation-timing-function: ease-in-out;
     margin: 1vw;
     font-size: 15vw;
-    font-family: 'Tilt Warp';
+    font-family: "Zen Kurenaido", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     letter-spacing: 0.5vw;
     color: white;
     user-select: none;
